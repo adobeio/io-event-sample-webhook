@@ -28,7 +28,8 @@ $ heroku open
 Now you can open it at the designated address that Heroku assigned you.
 
 ## OR expose your localhost with ngrok
-```ngrok http 3000
+```
+$ ngrok http 3000
 ```
 
 In your command line, you will see a string that looks like this --> https://randomnumbers.ngrok.io. Go to that address and you can see your localhost exposed to the web.
